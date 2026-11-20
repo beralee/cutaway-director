@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cutaway Director"
+  short_description: "Turn source material into editable, narrated 3D explainers"
+  default_prompt: "Use $explain-in-3d to storyboard my material, test the hardest ten seconds, and make an English 3D explainer."

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Where does the seal sit?</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #11272c; }
+    #main { width: 1280px; height: 720px; position: relative; overflow: hidden;
+      color: #fff4df; font-family: system-ui, sans-serif; }
+    canvas, svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+    h1, p { position: absolute; left: 64px; margin: 0; z-index: 1; }
+    h1 { top: 210px; width: 400px; font-size: 54px; line-height: 1.07; }
+    p { top: 355px; width: 320px; font-size: 23px; line-height: 1.4; color: #bcd6d3; }
+    svg { pointer-events: none; } svg text { font-size: 24px; fill: #ffe6b3; }
+  </style>
+</head>
+<body>
+  <main id="main" data-composition-id="main" data-start="0" data-duration="10" data-width="1280" data-height="720">
+    <canvas id="world"></canvas>
+    <h1>Where does the seal sit?</h1>
+    <p>Follow the orange ring as the lid lifts.</p>
+    <svg id="annotation" viewBox="0 0 1280 720" opacity="0" aria-label="Callout identifying the sealing ring">
+      <path id="leader" stroke="#ffca76" fill="none" stroke-width="2.5"></path>
+      <circle id="pin" r="5" fill="#ffca76"></circle>
+      <text id="label">Sealing ring</text>
+    </svg>
+  </main>
+  <script src="./scene.bundle.js"></script>
+</body>
+</html>

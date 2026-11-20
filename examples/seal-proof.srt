@@ -1,0 +1,11 @@
+1
+00:00:00,350 --> 00:00:02,180
+Where does the seal sit?
+
+2
+00:00:03,250 --> 00:00:06,090
+The orange ring fits between the lid and the base.
+
+3
+00:00:07,240 --> 00:00:09,710
+Close the lid and the ring disappears.
